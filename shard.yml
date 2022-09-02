@@ -1,0 +1,6 @@
+name: my_app
+version: 0.1.0
+
+dependencies:
+  idle-gc:
+    github: compumike/idle-gc

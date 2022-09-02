@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+cd "$(dirname "$0")"
+
+# Replace this with whatever name you'd like to tag this image as.
+DOCKER_IMAGE="crystal-docker-quickstart-my_app"
+
+# Mount local directory for development convenience.
+DOCKER_VOLUME="-v `pwd`:/app"
+
+# Uncomment to expose a port if you're hosting a server.
+DOCKER_EXPOSE=""
+#DOCKER_EXPOSE="-p 3000:3000/tcp"
+
+# Uncomment if you'd like to pass external environment variables into the Docker container and therefore to your application.
+DOCKER_ENV=""
+#DOCKER_ENV="-e MY_ENV_KEY_EXAMPLE"
+
+DOCKER_ARGS="${DOCKER_VOLUME} ${DOCKER_EXPOSE} ${DOCKER_ENV}"
+
+DOCKER_BUILDKIT=1 docker build -t ${DOCKER_IMAGE} -f Dockerfile .
+
+exec docker run --rm -it ${DOCKER_ARGS} ${DOCKER_IMAGE}

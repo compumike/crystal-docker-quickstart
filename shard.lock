@@ -1,0 +1,6 @@
+version: 2.0
+shards:
+  idle-gc:
+    git: https://github.com/compumike/idle-gc.git
+    version: 1.0.0
+
