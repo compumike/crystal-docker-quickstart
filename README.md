@@ -33,8 +33,8 @@ If you'd like to incorporate a dependency, known as a "Shard" in the crystal wor
 
 ## Resources
 
-* [Tutorials](https://crystal-lang.org/reference/1.10/tutorials/basics/index.html) - novice
-* [Language Reference](https://crystal-lang.org/reference/1.10/syntax_and_semantics/index.html) - intermediate
-* [Standard Library Docs](https://crystal-lang.org/api/1.10.1/) - everyday reference material
-* [Docs Home](https://crystal-lang.org/reference/1.10/)
+* [Tutorials](https://crystal-lang.org/reference/1.11/tutorials/basics/index.html) - novice
+* [Language Reference](https://crystal-lang.org/reference/1.11/syntax_and_semantics/index.html) - intermediate
+* [Standard Library Docs](https://crystal-lang.org/api/1.11.2/) - everyday reference material
+* [Docs Home](https://crystal-lang.org/reference/1.11/)
 * [Forum](https://forum.crystal-lang.org/)

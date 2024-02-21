@@ -1,4 +1,4 @@
-FROM crystallang/crystal:1.10.1-alpine
+FROM crystallang/crystal:1.11.2-alpine
 
 RUN apk --update --no-cache add \
   bash \
